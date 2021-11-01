@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.layout {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  display: none;
+  /* flex: 1; */
+  height: 100vh;
+  background-color: green;
+  min-width: 250px;
+}
+
+.main__section {
+  flex: 1;
+  height: 100vh;
+  background-color: blue;
+  min-width: 500px;
+}
+
+@media screen and (min-width: 750px) {
+  .sidebar {
+    flex: 0.25;
+    display: block;
+  }
+  .main__section {
+    flex: 0.75;
+  }
+}

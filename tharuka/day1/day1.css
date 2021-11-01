@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+
+}
+
+.main {
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+
+.section1 {
+  color: rgb(185, 36, 36);
+}
+
+.section2 {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.section2 p{
+    margin: 5px;
+}
+
+.company{
+    flex: 1;
+}
+
+.section2 h1{
+    margin: 0;
+}
+
+.section3 {
+    background-color: white;
+    height: 10px;
+}
+
+.section4{
+    background-color: green;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5{
+    background-color: grey;
+    height: 20px;
+}
+
+.section6{
+    display: flex;
+}
+
+.card{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.section7{
+    display: flex;
+    height: 200px;
+}
+
+.gallery1{
+    background-color: green;
+    color: white;
+    flex: 1;
+}
+.gallery2{
+    background-color: red;
+    color: white;
+    flex: 1;
+
+}
+.gallery3{
+    background-color:yellow;
+    color: white;
+    flex: 1;
+
+}
+.gallery4{
+    background-color: blue;
+    color: white;
+    flex: 1;
+
+}

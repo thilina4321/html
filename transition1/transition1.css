@@ -1,0 +1,19 @@
+button {
+  background-color: green;
+  color: white;
+  padding: 20px;
+  transition: background-color 2s;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+div {
+  text-align: start;
+  transition: text-align 8s;
+}
+
+div:hover {
+  text-align: end;
+}
