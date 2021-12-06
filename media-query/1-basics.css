@@ -1,0 +1,41 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+nav {
+  height: 0;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  visibility: hidden;
+  opacity: 0;
+  background-color: orangered;
+  margin: 0;
+}
+
+section {
+  background-color: orangered;
+  height: 100vh;
+}
+
+@media (min-width: 600px) {
+  nav {
+    height: 20px;
+    background-color: green;
+  }
+  section {
+    background-color: green;
+  }
+
+  ul {
+    visibility: visible;
+    opacity: 1;
+    background-color: green;
+  }
+}
